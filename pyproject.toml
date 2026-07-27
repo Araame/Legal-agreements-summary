@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi>=0.140.1",
+    "torch>=2.13.0",
+    "transformers>=5.14.1",
+    "uvicorn>=0.51.0",
+]
